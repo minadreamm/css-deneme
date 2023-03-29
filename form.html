@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kayıt Formu</title>
+    <style>
+        button{
+            background-color: rgb(51, 65, 65);
+            margin-left: 53rem;
+            color:rgb(238, 240, 232);
+            border-radius: 10px;
+        }
+
+        header{
+            margin-top: 20px;
+            color: blue;
+        }
+        
+        p{
+            font-weight: bold;
+        }
+    </style>
+
+    
+</head>
+<body> 
+
+    <header>
+        <h3>KAYIT FORMU</h3>
+    </header>
+    <br><br>
+
+    <form>
+        <p>
+
+            Ad : <input type="text">
+        </p><br>
+        <p>
+
+            Soyad : <input type="text">
+        </p><br>
+
+        <p>
+            E-mail : <input type="email">
+
+        </p><br>
+       
+        <p>
+            Cinsiyetiniz : <br><br>
+            Erkek <input type="radio" name="cinsiyet">
+            Kadın <input type="radio" name="cinsiyet">
+        </p><br>
+
+        <p>
+            Konser Seçimi: <br> <br>
+            <select name="konser">
+                <option>Hayko Cepkin</option>
+                <option>Mabel Matiz</option>
+                <option>Hadise</option>
+                <option>Dean Martin</option>
+                <option>Patron</option>
+                <option>Duman</option>
+                <option>Funda Arar</option>
+
+                
+            </select>
+
+        </p><br>
+        <p>
+            Tarih : <input type="date" name="Tarih">
+        </p>
+        
+        
+    </form><br>
+
+    <button>
+        Formu Gönder
+    </button>
+    
+</body>
+</html>
